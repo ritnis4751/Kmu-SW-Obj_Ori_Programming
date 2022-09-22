@@ -7,7 +7,7 @@ public class ArithmeticTester
        int age3 = 50; 
        int age4 = 44; 
 
-       int averageAge = (age1 + age2 + age3 + age4) / 4; 
+       double averageAge = (float)(age1 + age2 + age3 + age4) / 4; 
        System.out.println(averageAge); 
     } 
 } 
